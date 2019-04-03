@@ -1,5 +1,5 @@
 - name: title
-  author: authors
+  author: <b>authors</b>
   publisher: publisher
   datetime: 2010
   pageStart: 1
