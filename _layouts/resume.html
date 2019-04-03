@@ -94,25 +94,23 @@
 
         <h3>International Conference</h3>
 
-        {% for paper in site.data.i_publication %}
+        {% for paper in site.data.i_c_publication %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <ul margin: 10px 0;>
           <li><p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
         </ul>
-        <!--  <h4 class="resume-item-title" itemprop="name">"{{ paper.name }}"</h4>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          -->
-        </div><!-- end of resume-item -->
         {% endfor %}
 
         <h3>International Journal</h3>
 
 
-        <h3>Domestic Journal(Korea)</h3>
+        <h3>Domestic Conference (Korea)</h3>
 
 
-        <h3>Domestic Journal(Korea)</h3>
+        <h3>Domestic Journal (Korea)</h3>
+
+      </div><!-- end of resume-item -->
 
       </section>
       <!-- end publication -->
