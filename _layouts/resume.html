@@ -60,7 +60,7 @@
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          {% if site.data.education.award %}
+          {% if education.award %}
          
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
@@ -69,7 +69,7 @@
               {% endfor %}
             </ul></h5>
           {% endif %}
-          {% if site.data.education.supervisor %}
+          {% if education.supervisor %}
           <p class="resume-item-copy"><h4>Supervisor: </h4> {{ education.supervisor }}</p>
           {% endif %}
           <p class="resume-item-copy">{{ education.summary }}</p>
