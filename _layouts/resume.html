@@ -183,8 +183,7 @@
 
         {% for recognition in site.data.recognitions %}
         <div class="resume-item">
-          <h4>{{ recognition.award }}</h4>
-          <h5> &bull; {{ recognition.year }}</h5>
+          <h3>{{ recognition.award }}</h3> <h4> &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
