@@ -1,12 +1,10 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Embedded Systems
+  description: ARM(Raspberry Pi, Odriod, Sabre-lite), PowerPC(T2080QDS, P2020RDB), SPARC(LEON 3,4, ERC32)
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Real-Time Operating Systems(RTOS)
+  description: RTEMS, VxWorks 6.9, VxWorks 653
+
+- skill: Deep Learning for Embedded Systems
+  description: Distributed Training, Model(YOLO, Faster R-CNN), Tool(Tensorflow, MXNet)
