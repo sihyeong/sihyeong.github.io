@@ -1,17 +1,20 @@
-- name: title
-  author: <b>authors</b>
-  publisher: publisher
-  datetime: 2010
-  pageStart: 1
-  pageEnd: 22
-  contentLocation: Korea
+- name: Translated Block Optimization of Dynamic Binary Translator for Embedded System Virtualization
+  author: Wonjun Hwang, <b>Sihyeong Park</b>, Hyungshin Kim
+  publisher: IEMEK Journal of Embedded Systems and Applications
+  datetime: 2017
+  volume: 11
+  issue: 6
+  pageStart: 385
+  pageEnd: 393
 
-- name: title2
-  author: authors
-  publisher: publisher
-  datetime: 2012
-  pageStart: 4
-  pageEnd: 22
-  contentLocation: Korea
+- name: Design of a Virtual Machine based on the Lua interpreter for the On-Board Control Procedure Execution Environment
+  author: Sooyeon Kang, Cheolhea Koo, Gwanghyeok Ju, <b>Sihyeong Park</b>, Hyungshin Kim
+  publisher: Journal of KOSST
+  datetime: 2014
+  volume: 9
+  issue: 4
+  pageStart: 127
+  pageEnd: 133
+
 
   
