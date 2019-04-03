@@ -21,7 +21,7 @@ resume_contact_telephone:       ""
 resume_contact_address:         "533, EB5, Chungnam National University, Yuseong-gu, Daejeon, Korea"
 
 resume_header_contact_info:     "533, EB5, Chungnam National University, Korea • sihyeong@cnu.ac.kr"
-display_header_contact_info:    "true"
+display_header_contact_info:    "false"
 
 resume_header_intro: "<p>I am majoring in computer science at Chungnam National University. I am currently a doctoral student. I'm working on a kernel for multicore embedded real-time systems.</p>"
 
@@ -49,11 +49,11 @@ resume_social_links:
  # resume_twitter_url:           ""
  # resume_dribbble_url:          ""
   # resume_facebook_url:          ""
-  resume_linkedin_url:          "https://www.linkedin.com/in/sihyeongpark"
+resume_linkedin_url:          "https://www.linkedin.com/in/sihyeongpark"
   # resume_instagram_url:         ""
-  resume_website_url:           "http://eslab.cnu.ac.kr"
+resume_website_url:           "http://eslab.cnu.ac.kr"
 #  resume_medium_url:            ""
- resume_scholar_url:            "https://scholar.google.co.kr/citations?user=Gp0TQmAAAAAJ&hl=en"
+resume_scholar_url:            "https://scholar.google.co.kr/citations?user=Gp0TQmAAAAAJ&hl=en"
 resume_print_social_links:      false
 
 # Design settings
