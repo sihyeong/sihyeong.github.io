@@ -21,7 +21,7 @@ resume_contact_telephone:       "82-42-821-7446"
 resume_contact_address:         "533, EB5, 99, Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea"
 
 resume_header_contact_info:     "533, EB5, 99, Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea • 82-42-821-7446 • sihyeong@cnu.ac.kr"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
