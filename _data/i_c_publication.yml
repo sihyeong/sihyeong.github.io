@@ -1,3 +1,11 @@
+- name: Performance Analysis of Partitioning based Real-Time Separation Kernel
+  author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
+  publisher: The 4th International Conference on Next Generation Computing 2018(ICNGC 2018)
+  datetime: 2018
+  pageStart: 189
+  pageEnd: 192
+  contentLocation: Vietnam
+
 - name: Lua-based virtual machine platform for spacecraft on-board control software
   author: <b>Sihyeong Park</b>, Hyungshin Kim, Soo-Yeong Kang, Cheol Hea Koo, Hyunwoo Joe
   publisher: 2015 IEEE 13th International Conference on Embedded and Ubiquitous Computing(EUC)
@@ -5,11 +13,3 @@
   pageStart: 44
   pageEnd: 51
   contentLocation: Portugal
-
-- name: title2
-  author: authors
-  publisher: publisher
-  datetime: 2012
-  pageStart: 4
-  pageEnd: 22
-  contentLocation: Korea

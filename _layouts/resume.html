@@ -95,7 +95,6 @@
         <h3>International Conference</h3>
 
         {% for paper in site.data.i_c_publication %}
-        {% for paper in site.data.d_j_publication %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
