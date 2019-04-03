@@ -1,17 +1,72 @@
-- name: title
-  author: <b>authors</b>
-  publisher: publisher
-  datetime: 2010
-  pageStart: 1
-  pageEnd: 22
-  contentLocation: Korea
+#- name: title
+#  author: <b>authors</b>
+#  publisher: publisher
+#  datetime: 2010
+#  pageStart: 1
+#  pageEnd: 22
+#  contentLocation: Korea
 
-- name: title2
-  author: authors
-  publisher: publisher
-  datetime: 2012
-  pageStart: 4
-  pageEnd: 22
-  contentLocation: Korea
+- name: Performance Analysis of Task Switching Mechanism in Real-time Operating System
+  author: Hyeoksoo Jang, <b>Sihyeong Park</b>, Mi-Young Kwon, Sang-Hun Lee, Hoon-Kyu Kim, Hyungshin Kim
+  publisher: In proceeding of Korea Software Congress 2018
+  datetime: 2018
+  pageStart: 1434
+  pageEnd: 1436
+  contentLocation: Pyeongchang
 
+- name: Analysis of Inter-process Communication Improving Techniques Applied to Microkernel
+  author: Daeyoung Song, <b>Sihyeong Park</b>, Mi-Young Kwon, Sang-Hun Lee, Hoon-Kyu Kim, Hyungshin Kim
+  publisher: In proceeding of Korea Software Congress 2018
+  datetime: 2018
+  pageStart: 1471
+  pageEnd: 1473
+  contentLocation: Pyeongchang
+
+- name: A Performance Analysis of Hierarchial Structure on Capability-based Security Kernel
+  author: Daeyoung Song, <b>Sihyeong Park</b>, Mi-Young Kwon, Sang-Hun Lee, Hoon-Kyu Kim, Hyungshin Kim
+  publisher: In proceedings of the Institute of Embedded Engineering of Korea Fall Conference
+  datetime: 2018
+  pageStart: 367
+  pageEnd: 371
+  contentLocation: Jeju Island
+
+- name: Deep Learning Training on Distributed Embedded Systems
+  author: <b>Sihyeong Park</b>, Jemin Lee, Hyungshin Kim
+  publisher: In proceedings of the 12th IEMEK Symposium on Embedded Technology(ISET)
+  datetime: 2017
+  pageStart: 131
+  pageEnd: 133
+  contentLocation: Busan
+
+- name: Comparison of Energy Efficiency of Programming Languages in Internet Of Things Devices
+  author: <b>Sihyeong Park</b>, Jemin Lee, Hyungshin Kim
+  publisher: In proceedings of KIISE Winter Conference
+  datetime: 2016
+  pageStart: 334
+  pageEnd: 336
+  contentLocation: Pyeongchang
+
+- name: Design of a Hierarchical Scheduler for Time Partitioned RTEMS
+  author: <b>Sihyeong Park</b>, Hyungshin Kim
+  publisher: In proceedings of the the 11th IEMEK Symposium on Embedded Technology(ISET)
+  datetime: 2016
+  pageStart: 152
+  pageEnd: 153
+  contentLocation: Daejeon
+
+- name: Design of Lua-based On-Board Control Procedure Software for Deep Space Mission
+  author: <b>Sihyeong Park</b>, Cheolhea Koo, Sooyeon Kang, Changkyoon Kim , Cheolsoon Kwon, Hyungshin Kim
+  publisher: In proceedings of KIISE Winter Conference
+  datetime: 2014
+  pageStart: 1148
+  pageEnd: 1150
+  contentLocation: Pyeongchang
+  
+- name: Performance analysis of embedded linux on multicore processor
+  author: Daehwan Nam, <b>Sihyeong Park</b>, Cheolsoon Kwon, Hyungshin Kim
+  publisher: In proceedings of KIISE Winter Conference
+  datetime: 2013
+  pageStart: 1312
+  pageEnd: 1314
+  contentLocation: Jeju Island
   

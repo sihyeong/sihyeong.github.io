@@ -95,9 +95,11 @@
         <h3>International Conference</h3>
 
         {% for paper in site.data.i_c_publication %}
+        {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
+        {% endif %}
         {% endfor %}
 
         <h3>International Journal</h3>
@@ -111,16 +113,20 @@
 
         <h3>Domestic Conference (Korea)</h3>
         {% for paper in site.data.d_c_publication %}
+        {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
+        {% endif %}
         {% endfor %}
 
         <h3>Domestic Journal (Korea)</h3>
         {% for paper in site.data.d_j_publication %}
+        {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
             {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
+        {% endif %}
         {% endfor %}
 
 
