@@ -101,14 +101,32 @@
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
         </ul>
         {% endfor %}
-
+<!--&bull;-->
         <h3>International Journal</h3>
-
+        {% for paper in site.data.i_j_publication %}
+        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+        <ul margin: 10px 0;>
+          <li><p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
+          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
+        </ul>
+        {% endfor %}
 
         <h3>Domestic Conference (Korea)</h3>
-
+        {% for paper in site.data.d_c_publication %}
+        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+        <p class="resume-item-copy"> &bull; {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
+          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
+        {% endfor %}
 
         <h3>Domestic Journal (Korea)</h3>
+        {% for paper in site.data.d_j_publication %}
+        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+        <ul margin: 10px 0;>
+          <li><p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
+          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
+        </ul>
+        {% endfor %}
+
 
       </div><!-- end of resume-item -->
 
