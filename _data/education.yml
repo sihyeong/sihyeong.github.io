@@ -3,15 +3,17 @@
   uni: Chungnam National University
   year: 2016 &mdash; current
   supervisor: Hyungshin Kim
-  summary: If you had any meaningful roles at college, feel free to write about them here
+  summary: Currently I am studying multi-core resource interference in embedded systems.
 
 - degree: Master of Science (M.S.)
   uni: Chungnam National University
   year: 2016
   supervisor: Hyungshin Kim
+  thesis: Lua-Based Virtual Machine Platform for Spacecraft On-Board Control Software
   summary: You can choose to have either a single or multiple awards
 
 - degree: Bachelor of Science (B.S.)
   uni: Chungnam National University
   year: 2014
+  thesis: Optimizing Embedded Linux on Multicore Processors
   summary: You can choose to have either a single or multiple awards

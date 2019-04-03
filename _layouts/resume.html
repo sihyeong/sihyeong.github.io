@@ -61,7 +61,6 @@
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           {% if education.award %}
-         
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
               {% for award in education.awards %}
@@ -71,6 +70,9 @@
           {% endif %}
           {% if education.supervisor %}
           <p class="resume-item-copy"><h4>Supervisor: {{ education.supervisor }} </h4> </p>
+          {% endif %}
+          {% if education.paper %}
+          <p class="resume-item-copy">Thesis: {{ education.paper }}</p>
           {% endif %}
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
