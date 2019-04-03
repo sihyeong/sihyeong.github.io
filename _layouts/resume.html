@@ -92,9 +92,11 @@
           <h2>Publication</h2>
         </header>
 
-        {% for job in site.data.i_publication %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+        <h3>International Conference</h3>
+
+        {% for paper in site.data.i_publication %}
+        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+          <h4 class="resume-item-title" itemprop="name">{{ paper.name }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
