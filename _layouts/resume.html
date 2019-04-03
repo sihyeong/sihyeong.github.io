@@ -106,7 +106,7 @@
         {% for paper in site.data.i_j_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
         {% endfor %}
@@ -115,7 +115,7 @@
         {% for paper in site.data.d_c_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
         {% endfor %}
@@ -124,7 +124,7 @@
         {% for paper in site.data.d_j_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
             {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
         {% endfor %}
