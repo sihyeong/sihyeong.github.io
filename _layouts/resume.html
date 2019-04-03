@@ -74,7 +74,9 @@
           {% if education.thesis %}
           <p class="resume-item-copy"><b>Thesis: </b>{{ education.thesis }}</p>
           {% endif %}
+          {% if education.summary %}
           <p class="resume-item-copy">{{ education.summary }}</p>
+          {% endif %}
         </div>
         {% endfor %}
       </section>
