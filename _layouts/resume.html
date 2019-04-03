@@ -146,7 +146,7 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h5 class="resume-item-title" itemprop="name">{{ project.project }}</h5>
+          <h6 class="resume-item-title">{{ project.project }}</h6>
           <p class="resume-item-details">{{ project.funder }}  &bull; {{ project.duration }}</p>
           {% if project.description %}
           <p class="resume-item-copy">{{ project.description }}</p>
