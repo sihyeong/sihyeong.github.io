@@ -6,4 +6,12 @@
   pageEnd: 22
   contentLocation: Korea
 
+- name: title2
+  author: authors
+  publisher: publisher
+  datetime: 2012
+  pageStart: 4
+  pageEnd: 22
+  contentLocation: Korea
+
   
