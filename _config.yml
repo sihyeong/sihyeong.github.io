@@ -54,7 +54,7 @@ resume_linkedin_url:          "https://www.linkedin.com/in/sihyeongpark"
 resume_website_url:           "http://eslab.cnu.ac.kr"
 #  resume_medium_url:            ""
 resume_scholar_url:            "https://scholar.google.co.kr/citations?user=Gp0TQmAAAAAJ&hl=en"
-resume_print_social_links:      true
+resume_print_social_links:      false
 
 # Design settings
 resume_theme:                   default
