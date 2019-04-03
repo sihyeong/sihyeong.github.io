@@ -96,10 +96,10 @@
 
         {% for paper in site.data.i_publication %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <ol type = "1">
+        <ul margin: 0>
           <li><p class="resume-item-copy"> {{ paper.author }}, "{{ paper.name }}", {{ paper.publisher }}, {{ paper.contentLocation }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p></li>
-        </ol>
+        </ul>
         <!--  <h4 class="resume-item-title" itemprop="name">"{{ paper.name }}"</h4>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           -->
