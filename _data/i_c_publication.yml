@@ -1,3 +1,11 @@
+- name: Interference Analysis of Multicore Shared Resources with a Commercial Avionics RTOS
+  author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
+  publisher: 2019 IEEE AIAA 38th Digital Avionics Systems Conference (DASC) Proceedings
+  datetime: 2019
+  pageStart: 1
+  pageEnd: 10
+  contentLocation: USA
+
 - name: Performance Analysis of Partitioning based Real-Time Separation Kernel
   author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
   publisher: The 4th International Conference on Next Generation Computing 2018(ICNGC 2018)
