@@ -1,6 +1,10 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: A Study on Reliability V&V Method for LEO High Agility Reconnaissance Satellite Flight Software
+  funder: Agency for Defense Development(ADD)
+  duration: AUG.2019 &mdash;
+
 - project: Study on Real-time Assured Separation Kernel Architecture of RTOS
   funder: Agency for Defense Development(ADD)
   duration: FEB.2018 &mdash; FEB.2019
