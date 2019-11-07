@@ -4,7 +4,7 @@
   description: ARM(Raspberry Pi, Odriod, Sabre-lite), PowerPC(T2080QDS, P2020RDB), SPARC(LEON 3,4, ERC32)
 
 - skill: Real-Time Operating Systems(RTOS)
-  description: RTEMS, VxWorks 6.9, VxWorks 653(includes ARINC 653)
+  description: RTEMS, VxWorks 6.9, VxWorks 653(includes ARINC 653), seL4
 
 - skill: Deep Learning for Embedded Systems
   description: Distributed Training, Model(YOLO, Faster R-CNN), Tool(Tensorflow, MXNet)
