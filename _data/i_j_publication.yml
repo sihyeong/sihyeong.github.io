@@ -1,8 +1,8 @@
-- name: 
-  author: 
-  publisher: 
-  datetime: 
-  volume: 
-  issue:
-  pageStart:
-  pageEnd:  
+- name: Hardware Resource Analysis in Distributed Training with Edge Devices
+  author: <b>Sihyeong Park</b>, Jemin Lee, Hyungshin Kim
+  publisher: Electronics
+  datetime: 2019
+  volume: 2020
+  issue: 9(1)
+  pageStart: 1
+  pageEnd: 13
