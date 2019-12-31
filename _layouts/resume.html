@@ -106,7 +106,7 @@
         {% for paper in site.data.i_j_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, ({{ paper.issue }}), 
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, {{ paper.issue }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
         {% endfor %}
