@@ -4,7 +4,7 @@
   datetime: 2019
   pageStart: 1
   pageEnd: 10
-  contentLocation: USA
+  contentLocation: San Diego, USA
 
 - name: Performance Analysis of Partitioning based Real-Time Separation Kernel
   author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
@@ -12,7 +12,7 @@
   datetime: 2018
   pageStart: 189
   pageEnd: 192
-  contentLocation: Vietnam
+  contentLocation: Vung Tau, Vietnam
 
 - name: Lua-based virtual machine platform for spacecraft on-board control software
   author: <b>Sihyeong Park</b>, Hyungshin Kim, Soo-Yeong Kang, Cheol Hea Koo, Hyunwoo Joe
@@ -20,4 +20,4 @@
   datetime: 2015
   pageStart: 44
   pageEnd: 51
-  contentLocation: Portugal
+  contentLocation: Porto, Portugal
