@@ -7,7 +7,7 @@
   pageStart: 1
   pageEnd: 13
 
-  - name: Execution Model to Reduce the Interference of Shared Memory in ARINC 653 Compliant Multicore RTOS
+- name: Execution Model to Reduce the Interference of Shared Memory in ARINC 653 Compliant Multicore RTOS
   author: <b>Sihyeong Park</b>, Mi-Young Kwon, Hoon-Kyu Kim, Hyungshin Kim
   publisher: Applied Sciences
   datetime: 2020
