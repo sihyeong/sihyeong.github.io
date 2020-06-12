@@ -1,12 +1,3 @@
-- name: Hardware Resource Analysis in Distributed Training with Edge Devices
-  author: <b>Sihyeong Park</b>, Jemin Lee, Hyungshin Kim
-  publisher: Electronics
-  datetime: 2019
-  volume: 9
-  issue: 1
-  pageStart: 1
-  pageEnd: 13
-
 - name: Execution Model to Reduce the Interference of Shared Memory in ARINC 653 Compliant Multicore RTOS
   author: <b>Sihyeong Park</b>, Mi-Young Kwon, Hoon-Kyu Kim, Hyungshin Kim
   publisher: Applied Sciences
@@ -15,3 +6,12 @@
   issue: 7
   pageStart: 1
   pageEnd: 20
+  
+- name: Hardware Resource Analysis in Distributed Training with Edge Devices
+  author: <b>Sihyeong Park</b>, Jemin Lee, Hyungshin Kim
+  publisher: Electronics
+  datetime: 2019
+  volume: 9
+  issue: 1
+  pageStart: 1
+  pageEnd: 13
