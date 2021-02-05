@@ -1,10 +1,10 @@
 # Degree
 - degree: Doctor of Philosophy (Ph.D.) 
   uni: Chungnam National University
-  year: 2016 &mdash; current
+  year: 2021
   supervisor: Hyungshin Kim
-  thesis: In progress
-  summary: Currently I am studying multi-core resource interference in embedded systems.
+  thesis: Memory Contention-allowed Task Scheduling to Improve Predictability in Multicore
+  summary: I did a study on reducing the interference caused by shared memory in multicore. In this study, we reduced interference by inserting a memory barrier in basic blocks with LLVM.
 
 - degree: Master of Science (M.S.)
   uni: Chungnam National University

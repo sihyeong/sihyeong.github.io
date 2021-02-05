@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Sihyeong Park"
-resume_title:                   "<b>Ph.D. Candidate</b>"
+resume_title:                   "<b>Ph.D.</b>"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "sihyeong@cnu.ac.kr"
@@ -23,7 +23,7 @@ resume_contact_address:         "533, EB5, Chungnam National University, Yuseong
 resume_header_contact_info:     "533, EB5, Chungnam National University, Korea • sihyeong@cnu.ac.kr"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am majoring in Computer Science and Engineering at Chungnam National University. I am currently a doctoral student in Embedded System Lab. I'm working on a kernel for multicore embedded real-time systems.</p>"
+resume_header_intro: "<p>I am majoring in Computer Science and Engineering at Chungnam National University. I'm working on a kernel for multicore embedded real-time systems.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
