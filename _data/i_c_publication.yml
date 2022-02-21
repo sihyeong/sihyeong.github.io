@@ -1,3 +1,11 @@
+- name: Methods for Improving the Reliability of Intelligent Semiconductor
+  author: <b>Sihyeong Park</b>, Seokhun Jeon, Byungsoo Kim, Jeahack Lee
+  publisher: 2021 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)
+  datetime: 2021
+  pageStart: 1
+  pageEnd: 4
+  contentLocation: Gangwon, Republic of Korea
+
 - name: Interference Analysis of Multicore Shared Resources with a Commercial Avionics RTOS
   author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
   publisher: 2019 IEEE AIAA 38th Digital Avionics Systems Conference (DASC) Proceedings
