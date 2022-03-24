@@ -6,14 +6,6 @@
 #  pageEnd: 22
 #  contentLocation: Korea
 
-- name: Res-DualNet: A Study on Efficient ResNet Model Based on Dual-Path Depthwise Convolution
-  author: Seungwoo Im, Seokhun Jeon, <b>Sihyeong Park</b>, Youngjong Jang
-  publisher: In proceeding of Korea Software Congress 2022
-  datetime: 2021
-  pageStart: 440
-  pageEnd: 442
-  contentLocation: Pyeongchang
-
 - name: Performance Analysis of Task Switching Mechanism in Real-time Operating System
   author: Hyeoksoo Jang, <b>Sihyeong Park</b>, Mi-Young Kwon, Sang-Hun Lee, Hoon-Kyu Kim, Hyungshin Kim
   publisher: In proceeding of Korea Software Congress 2018
