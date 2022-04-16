@@ -6,14 +6,14 @@
   thesis: Memory Contention-allowed Task Scheduling to Improve Predictability in Multicore
   summary: I did a study on reducing the interference caused by shared memory in multicore. In this study, we reduced interference by inserting a memory barrier in basic blocks with LLVM.
 
-- degree: Master of Science (M.S.)
+- degree: Master of Science (M.S.) in Computer Science and Engineering
   uni: Chungnam National University
   year: 2016
   supervisor: Hyungshin Kim
   thesis: Lua-Based Virtual Machine Platform for Spacecraft On-Board Control Software
   summary: I have studied a scripting language based automation system for deep space spacecraft. I also studied virtualization solutions for satellite systems.
 
-- degree: Bachelor of Science (B.S.)
+- degree: Bachelor of Science (B.S.) in Computer Science and Engineering
   uni: Chungnam National University
   year: 2014
   supervisor: Hyungshin Kim
