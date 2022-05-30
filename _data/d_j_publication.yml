@@ -1,3 +1,12 @@
+- name: Investigation on TLB Miss Impact through TLB Lockdown in Multi-core Systems
+  author: Daeyoung Song, <b>Sihyeong Park</b>, Hyungshin Kim
+  publisher: IEMEK Journal of Embedded Systems and Applications
+  datetime: 2022
+  volume: 17
+  issue: 1
+  pageStart: 59
+  pageEnd: 65
+  
 - name: Translated Block Optimization of Dynamic Binary Translator for Embedded System Virtualization
   author: Wonjun Hwang, <b>Sihyeong Park</b>, Hyungshin Kim
   publisher: IEMEK Journal of Embedded Systems and Applications
