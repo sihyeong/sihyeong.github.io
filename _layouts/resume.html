@@ -92,27 +92,22 @@
           <h2>Publication</h2>
         </header>
 
-        <h3>International Conference</h3>
-
-        {% for paper in site.data.i_c_publication %}
-        {% if paper.name %}
-        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.contentLocation }}, 
-          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
-        {% endif %}
-        {% endfor %}
-
         <h3>International Journal</h3>
         {% for paper in site.data.i_j_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+        {% if paper.issue == '' %}
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, 
+          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
+        {% else %}
         <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}({{ paper.issue }}), 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
+        {% endif %}
         {% endfor %}
 
-        <h3>Domestic Conference (Korea)</h3>
-        {% for paper in site.data.d_c_publication %}
+        <h3>International Conference</h3>
+        {% for paper in site.data.i_c_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
         <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.contentLocation }}, 
@@ -128,6 +123,16 @@
             {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% endif %}
         {% endfor %}
+
+        <h3>Domestic Conference (Korea)</h3>
+        {% for paper in site.data.d_c_publication %}
+        {% if paper.name %}
+        <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
+        <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.contentLocation }}, 
+          {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
+        {% endif %}
+        {% endfor %}
+
       </div><!-- end of resume-item -->
       </section>
       <!-- end publication -->
