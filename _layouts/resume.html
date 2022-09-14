@@ -96,7 +96,7 @@
         {% for paper in site.data.i_j_publication %}
         {% if paper.name %}
         <div class="resume-item" itemscope itemprop="published" itemtype="http://schema.org/ScholarlyArticle">
-        {% if paper.issue == '' %}
+        {% if paper.issue == '0' %}
         <p class="resume-item-copy"> {{ paper.author }}, <b>"{{ paper.name }}"</b>, {{ paper.publisher }}, {{ paper.volume }}, 
           {{ paper.datetime }}, {{ paper.pageStart }}-{{ paper.pageEnd }}.</p>
         {% else %}
