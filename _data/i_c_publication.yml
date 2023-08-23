@@ -1,4 +1,12 @@
 - name: Methods for Improving the Reliability of Intelligent Semiconductor
+  author: Jeahack Lee, Hyeonseong Kim, <b>Sihyeong Park</b>, Yun Pyo Hong, Seokhun Jeon, Byung-Soo Kim
+  publisher: 2023 Fourteenth International Conference on Ubiquitous and Future Networks (ICUFN)
+  datetime: 2023
+  pageStart: 733
+  pageEnd: 735
+  contentLocation: Paris, France
+
+- name: Methods for Improving the Reliability of Intelligent Semiconductor
   author: <b>Sihyeong Park</b>, Seokhun Jeon, Byungsoo Kim, Jeahack Lee
   publisher: 2021 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)
   datetime: 2021
@@ -16,7 +24,7 @@
 
 - name: Performance Analysis of Partitioning based Real-Time Separation Kernel
   author: <b>Sihyeong Park</b>, Daeyoung Song, Hyeoksoo Jang,Mi-Young Kwon, Sang-Hun Lee and Hoon-Kyu Kim,Hyungshin Kim
-  publisher: The 4th International Conference on Next Generation Computing 2018(ICNGC 2018)
+  publisher: The 4th International Conference on Next Generation Computing 2018 (ICNGC 2018)
   datetime: 2018
   pageStart: 189
   pageEnd: 192
@@ -24,7 +32,7 @@
 
 - name: Lua-based virtual machine platform for spacecraft on-board control software
   author: <b>Sihyeong Park</b>, Hyungshin Kim, Soo-Yeong Kang, Cheol Hea Koo, Hyunwoo Joe
-  publisher: 2015 IEEE 13th International Conference on Embedded and Ubiquitous Computing(EUC)
+  publisher: 2015 IEEE 13th International Conference on Embedded and Ubiquitous Computing (EUC)
   datetime: 2015
   pageStart: 44
   pageEnd: 51
